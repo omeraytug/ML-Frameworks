@@ -48,8 +48,19 @@ print("Matrix-vector product:\n", matrix_vector_product)
 # See L1.ipynb for the task solution
 
 
+
 # Task 3: Framework comparison in code
 # TODO: Using scikit-learn, load the iris dataset
+from sklearn.datasets import load_iris
+data = load_iris()
+
+x = data["data"]
+y = data["target"]
+
+print(x)
+print(y)
+
+
 # TODO: Train a LogisticRegression model
 # TODO: Train a tiny MLP (MLPClassifier) on the same data
 # TODO: Compare accuracy and write 3-5 comments in code about:
@@ -57,5 +68,3 @@ print("Matrix-vector product:\n", matrix_vector_product)
 # - API ergonomics
 # - when you would pick each approach
 
-print("Done! You now have a first hands-on view of ML frameworks.")
-print("Keep these snippets for future comparison in later lessons.")
