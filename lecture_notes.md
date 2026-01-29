@@ -17,3 +17,7 @@
 - Machine Learning: allt dator lärande  
 - Deep Learning: train from exemple. mystistkt/black box. kasta in massor av data. efter ett tag blir den duktig. you train the model many times. we send the X and Y (often). Neural network.
 - Reinforcement Learning: träna mot sig själv. belönas för bra. straffas med dåligt. (Exempel: chess, köra bil - om du vinner schack spelet eller förlorar så lär det sig: om du vinner så är det bra om du förlorar år det dåligt. self driving cars)
+
+
+# L2 #
+- Cosine similarity: hur lika två vektorer är.

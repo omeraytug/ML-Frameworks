@@ -45,6 +45,9 @@ print("Matrix-vector product:\n", matrix_vector_product)
 # - JAX with @jit (graph-like)
 # TODO: Print the output and note how execution differs
 
+# See L1.ipynb for the task solution
+
+
 # Task 3: Framework comparison in code
 # TODO: Using scikit-learn, load the iris dataset
 # TODO: Train a LogisticRegression model
