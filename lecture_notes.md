@@ -21,3 +21,4 @@
 
 # L2 #
 - Cosine similarity: hur lika två vektorer är.
+- I regel kör PyTorch kod i eager stil (en rad i taget). Om man använder torch.compile, så kör den i graph-stil.
