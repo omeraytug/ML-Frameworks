@@ -37,6 +37,9 @@ matrix = np.array([[1, 2, 3],
 matrix_vector_product = matrix @ v1
 print("Matrix-vector product:\n", matrix_vector_product)
 
+
+
+
 # Task 2: Eager vs graph execution
 # TODO: Write a small function f(x) = x^3 + 2x
 # TODO: Implement f(x) in ONE of:
@@ -54,14 +57,20 @@ print("Matrix-vector product:\n", matrix_vector_product)
 from sklearn.datasets import load_iris
 data = load_iris()
 
-x = data["data"]
+X = data["data"]
 y = data["target"]
 
-print(x)
+print(X)
 print(y)
 
 
 # TODO: Train a LogisticRegression model
+from sklearn.linear_model import LogisticRegression
+
+model = LogisticRegression(max_iter=3000)
+model.fit(X, y)
+print(model.score(X, y))
+
 # TODO: Train a tiny MLP (MLPClassifier) on the same data
 # TODO: Compare accuracy and write 3-5 comments in code about:
 # - speed
