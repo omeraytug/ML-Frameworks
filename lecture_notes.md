@@ -29,3 +29,4 @@
 
 
 # L4 #
+- F1 score a performance metric for classification models, such as LogReg and SVM. 
