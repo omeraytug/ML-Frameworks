@@ -22,3 +22,7 @@
 # L2 #
 - Cosine similarity: hur lika två vektorer är.
 - I regel kör PyTorch kod i eager stil (en rad i taget). Om man använder torch.compile, så kör den i graph-stil.
+
+# L3 # 
+- Lecture 3 content: All 3 labs (more focus on the Lab 1). Some theory. Meta learning(?). 
+- Deadlines: Lab 1: Feb 13th - Lab 2: Feb 27th - Lab 3: March 12nd. 
