@@ -33,17 +33,26 @@
  
 # L5 #
 ## Evaluation Metrics
-- Classification: Divides data in classes. We either get correct / incorrect (from the model). 
+### Classification: Divides data into classes. Each prediction is either correct or incorrect. (from the model). 
 
 |                | Actual: Positive | Actual: Negative |
 |----------------|------------------|------------------|
-| Predicted: Positive | True Positive (TP) | False Positive (FP) |
-| Predicted: Negative | False Negative (FN) | True Negative (TN) |
+| Predicted: Positive | True Positive (TP) (have diabates, we predicted have)| False Positive (FP) (dont have diabates, we predicted have)|
+| Predicted: Negative  | False Negative (FN) (have diabates, we predicted dont have)| True Negative (TN) (dont have diabates, we predicted dont have)|
 
-- Accuracy: the proportion of total predictions that are correct. Can be a bad metric to in case of missing TP's and getting some FN's even though the metric itself seems to be looking high (ex 95%)
+- Accuracy: the proportion of total predictions that are correct. Accuracy can be misleading for imbalanced datasets, as it may appear high (e.g. 95%) even when the model misses positive cases (false negatives).
 
 $$Accuracy = \frac{TP + TN}{TP + FP + FN + TN}$$
 
 - Precision: Precision measures how many of the instances predicted as positive are actually positive.
 
 $$Presicion: \frac{TP}{TP + FP}$$
+
+- Recall: Measures how many of the actual positive cases are correctly identified by the model.
+
+$$Recall: \frac{TP}{TP + FN}$$
+
+- F1-Score: F1-score is a metric that combines precision and recall into a single value by taking their harmonic mean.
+
+$$F1 = \frac{2PR}{P + R}$$
+
