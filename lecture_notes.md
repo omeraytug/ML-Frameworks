@@ -30,3 +30,20 @@
 
 # L4 #
 - F1 score a performance metric for classification models, such as LogReg and SVM. 
+ 
+# L5 #
+## Evaluation Metrics
+- Classification: Divides data in classes. We either get correct / incorrect (from the model). 
+
+|                | Actual: Positive | Actual: Negative |
+|----------------|------------------|------------------|
+| Predicted: Positive | True Positive (TP) | False Positive (FP) |
+| Predicted: Negative | False Negative (FN) | True Negative (TN) |
+
+- Accuracy: the proportion of total predictions that are correct. Can be a bad metric to in case of missing TP's and getting some FN's even though the metric itself seems to be looking high (ex 95%)
+
+$$Accuracy = \frac{TP + TN}{TP + FP + FN + TN}$$
+
+- Precision: Precision measures how many of the instances predicted as positive are actually positive.
+
+$$Presicion: \frac{TP}{TP + FP}$$
