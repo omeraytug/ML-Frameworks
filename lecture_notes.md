@@ -56,3 +56,16 @@ $$Recall: \frac{TP}{TP + FN}$$
 
 $$F1 = \frac{2PR}{P + R}$$
 
+---
+
+- Standardization: Standardization scales the data to have a mean of 0 and a standard deviation of 1.
+
+- K-Means: K-Means clusters data into K groups by minimizing the distance between data points and their cluster centroids.
+
+- Inertia: Inertia is the sum of the squared distances of each data point to its closest centroid.
+
+- PCA: PCA reduces the dimensionality of the data by projecting it onto a lower-dimensional space while preserving as much of the original variance as possible.
+
+- Elbow Method: The elbow method is a technique to find the optimal number of clusters. It plots the inertia (the sum of the squared distances of each data point to its closest centroid) against the number of clusters. The optimal number of clusters is the one where the inertia starts to decrease slowly.
+
+
