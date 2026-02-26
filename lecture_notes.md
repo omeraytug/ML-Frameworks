@@ -69,3 +69,8 @@ $$F1 = \frac{2PR}{P + R}$$
 - Elbow Method: The elbow method is a technique to find the optimal number of clusters. It plots the inertia (the sum of the squared distances of each data point to its closest centroid) against the number of clusters. The optimal number of clusters is the one where the inertia starts to decrease slowly.
 
 
+
+# L11 # 
+- Transfer learning: Transfer learning is the process of reusing a model trained on one task (source task) for another related task (target task), typically by fine-tuning the model or reusing some of its layers instead of training a new model from scratch.
+
+- In transfer learning, we freeze the weights of some layers of a pretrained model so that their learned parameters are not updated during training on the new task. This allows the model to retain the general features it learned from the source task, while only the remaining (unfrozen) layers are fine-tuned to adapt to the target task - we typically freeze the early (lower) layers.
