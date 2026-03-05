@@ -340,7 +340,7 @@ Where:
 
 This encourages the model to keep **smaller weights**, which helps reduce overfitting.
 
-# L11
+# L10
 
 - Transfer learning: Transfer learning is the process of reusing a model trained on one task (source task) for another related task (target task), typically by fine-tuning the model or reusing some of its layers instead of training a new model from scratch.
 
